@@ -110,6 +110,66 @@
          </div>
       </div>
 
+      <!-- RESUME -->
+
+      <div id="resume" class="collapse">
+         <div class="card card-body bg-success text-white py-5">
+            <h2>My Resume</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptate.</p>
+         </div>
+         <div class="card card-body py-5">
+            <h3>Where Have I Worked ?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, a deleniti omnis architecto possimus impedit maiores est reiciendis consequatur perspiciatis.</p>
+            <div class="card-deck">
+               <div class="card">
+                  <div class="card-body">
+                     <h4 class="card-title">Adwin</h4>
+                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sunt reprehenderit aliquam excepturi quis exercitationem sint numquam unde sequi facere!</p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Position : Stagiaire Web-Developer
+                     </p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Website : https://www.adwin.fr/
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <h6 class="text-muted">Dates : 04/2019 - 07/2019 </h6>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-body">
+                     <h4 class="card-title">Chewbaca</h4>
+                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sunt reprehenderit aliquam excepturi quis exercitationem sint numquam unde sequi facere!</p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Position : Front-End Web-Developer 
+                     </p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Website : https://www.chewbaca.fr/
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <h6 class="text-muted">Dates : 04/2019 - 07/2019 </h6>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-body">
+                     <h4 class="card-title">PoneyduWeb</h4>
+                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sunt reprehenderit aliquam excepturi quis exercitationem sint numquam unde sequi facere!</p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Position : Back-End Web-Developer
+                     </p>
+                     <p class="p-2 mb-3 bg-dark text-white">
+                        Website : https://www.pdw.fr/
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <h6 class="text-muted">Dates : 04/2019 - 07/2019 </h6>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
       <!-- FOOTER -->
 
       <footer id="main-footer" class="p-5 bg-dark text-white">
@@ -135,6 +195,10 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    $('.port-item').click(function() {
+       $('.collapse').collapse('hide');
+    });
   </script>
 </body>
 
